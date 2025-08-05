@@ -35,13 +35,13 @@
                             href="{{ route('index')}}"
                             active="{{ request()->routeIs('index')}}"
                         >
-                            akmal
+                            Dashboard
                         </x-nav-link>
                         <x-nav-link
-                            href="{{ route('index')}}"
-                            active="{{ request()->routeIs('index')}}"
+                            href="{{ route('profile')}}"
+                            active="{{ request()->routeIs('profile')}}"
                         >
-                            akmal
+                            Profile
                         </x-nav-link>
                     <a href="#" class="nav-link active">
                         <i class="nav-icon bi bi-speedometer"></i>
