@@ -21,7 +21,7 @@
   </div>
 </div>
 
-        <button class="btn btn-primary" wire:click="$dispatch('toast', {message: 'hallo', variant: 'success'})">Show Toast</button>
+        <button class="btn btn-primary" wire:click="$dispatch('toast', {message: 'hallo', variant: 'primary'})">Show Toast</button>
 
         <button class="btn btn-primary" wire:click="$dispatch('openModal', {id: 'exampleModal'})">Show Modal</button>
 

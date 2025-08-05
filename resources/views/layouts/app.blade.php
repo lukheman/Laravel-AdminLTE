@@ -290,16 +290,21 @@ animate__faster`
 
             Livewire.on('toast', ({ message, variant }) => {
                 const borderColors = {
-                    success: "#435ebe",
+                    success: "#198754",
                     warning: "#ffc107",
-                    error: "#dc3545"
+                    error: "#dc3545",
+primary:   "#0d6efd",
+secondary: "#6c757d",
+info:      "#0dcaf0",
+light:     "#f8f9fa",
+dark:      "#212529",
                 };
 
                 Toastify({
                     text: message,
                     duration: 3000,
                     close: false,
-                    gravity: "top",
+                    gravity: "bottom",
                     position: "right",
                     stopOnFocus: true,
                     style: {

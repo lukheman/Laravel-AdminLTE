@@ -6,7 +6,7 @@ trait WithNotify
 {
     public function notifySuccess(string $message)
     {
-        $this->dispatch('toast', variant: 'success', message: $message);
+        $this->dispatch('toast', variant: 'primary', message: $message);
     }
 
     public function notifyError(string $message)
