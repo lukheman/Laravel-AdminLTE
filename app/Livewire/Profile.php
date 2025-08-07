@@ -4,10 +4,12 @@ namespace App\Livewire;
 
 use App\Models\User;
 use App\Traits\WithNotify;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Livewire\Forms\ProfileForm;
 use Livewire\WithFileUploads;
 
+#[Title('Profile')]
 class Profile extends Component
 {
     use WithNotify;

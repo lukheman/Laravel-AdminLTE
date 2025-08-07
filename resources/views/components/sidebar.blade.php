@@ -43,6 +43,12 @@
                         >
                             Profile
                         </x-nav-link>
+                        <x-nav-link
+                            href="{{ route('user-table')}}"
+                            active="{{ request()->routeIs('user-table')}}"
+                        >
+                        Pengguna
+                        </x-nav-link>
                     <a href="#" class="nav-link active">
                         <i class="nav-icon bi bi-speedometer"></i>
                         <p>
